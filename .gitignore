@@ -1,0 +1,14 @@
+# OS or Editor folders
+.DS_Store
+profile
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+sftp-settings.json
+sftp-config.json
