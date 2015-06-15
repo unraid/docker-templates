@@ -12,6 +12,7 @@
     [b]/config[/b] : this is the path where BitTorrent Sync will store its configuration files.
   </Description>
   <Registry>https://registry.hub.docker.com/u/limetech/sync/</Registry>
+  <GitHub>https://github.com/limetech/dockerapp-sync</GitHub>
   <Repository>limetech/sync</Repository>
   <Support>http://lime-technology.com/forum/index.php?topic=40654.0</Support>
   <BindTime>true</BindTime>
