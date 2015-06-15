@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
+  <Date>2015-06-15</Date>
   <Beta>False</Beta>
   <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Name>PlexMediaServer</Name>
