@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2015-06-15</Date>
+  <Date>2015-06-20</Date>
   <Beta>False</Beta>
   <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Name>PlexMediaServer</Name>
+  <Changes>
+[center][img width='155px' src='http://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
+
+[center][font size=5]Plex Media Server Change Log[/font][/center]
+[font size=4]2015.06.20[/font]
+- Fixed user permissions on files and folders off of /config
+
+[font size=4]2015.06.15[/font]
+- Initial Release
+  </Changes>
   <Overview>
     The Plex Media Server enriches your life by organizing all your personal media, presenting it beautifully and streaming it to all of your devices. It's easy to use, it's awesome, and it's free!
   </Overview>
@@ -32,5 +42,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
+  <Banner></Banner>
   <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
 </Containers>
