@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Date>2015-12-23</Date>
+  <Date>2016-01-21</Date>
   <Beta>False</Beta>
   <Category>Cloud:</Category>
   <Name>Sync</Name>
@@ -9,6 +9,9 @@
 [center][img width='155px' src='http://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
 
 [center][font size=4]Sync Change Log[/font][/center]
+
+[font size=3]2016.01.21[/font]
+- Updated Sync to version 2.3.0
 
 [font size=3]2015.12.23[/font]
 - Updated Sync to version 2.2.7
@@ -26,10 +29,10 @@
 - Initial Release (Sync version 2.0.124)
   </Changes>
   <Overview>
-    BitTorrent Sync, or simply - Sync - is an application for data synchronization. Its primary goal is to keep designated folder content same on 2 or more devices / computers. As soon as something changes on one computer, change (would it be changed content of a file, file renaming or deletion, etc.) should be propagated to all other computer(s) that want to keep the folder synchronized.Sync is available for a bunch of platforms, both desktop and mobile, which gives a good usage flexibility.
+    BitTorrent Sync, or simply - Sync - is an application for data synchronization. Its primary goal is to keep designated folder content same on 2 or more devices / computers. As soon as something changes on one computer, change (would it be changed content of a file, file renaming or deletion, etc.) should be propagated to all other computer(s) that want to keep the folder synchronized. Sync is available for a bunch of platforms, both desktop and mobile, which gives a good usage flexibility.
   </Overview>
   <Description>
-    BitTorrent Sync, or simply - Sync - is an application for data synchronization. Its primary goal is to keep designated folder content same on 2 or more devices / computers. As soon as something changes on one computer, change (would it be changed content of a file, file renaming or deletion, etc.) should be propagated to all other computer(s) that want to keep the folder synchronized.Sync is available for a bunch of platforms, both desktop and mobile, which gives a good usage flexibility.[br][br]
+    BitTorrent Sync, or simply - Sync - is an application for data synchronization. Its primary goal is to keep designated folder content same on 2 or more devices / computers. As soon as something changes on one computer, change (would it be changed content of a file, file renaming or deletion, etc.) should be propagated to all other computer(s) that want to keep the folder synchronized. Sync is available for a bunch of platforms, both desktop and mobile, which gives a good usage flexibility.[br][br]
     [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
     [b]/config[/b] : this is the path where BitTorrent Sync will store its configuration files.
   </Description>
