@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <Date>2016-02-25</Date>
+<Container version="2">
+  <Date>2016-07-02</Date>
   <Beta>False</Beta>
   <Category>Cloud:</Category>
   <Name>Sync</Name>
@@ -9,6 +9,16 @@
 [center][img width='155px' src='http://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
 
 [center][font size=4]Sync Change Log[/font][/center]
+
+[font size=3]2016.07.02[/font]
+- Updated Sync to version 2.3.8
+
+[font size=3]2016.05.07[/font]
+- Updated Sync to version 2.3.7
+
+[font size=3]2016.03.31[/font]
+- Updated Sync to version 2.3.6
+- Upgraded template to V2
 
 [font size=3]2016.02.25[/font]
 - Updated Sync to version 2.3.3
@@ -44,7 +54,7 @@
   </Overview>
   <Description>
     BitTorrent Sync, or simply - Sync - is an application for data synchronization. Its primary goal is to keep designated folder content same on 2 or more devices / computers. As soon as something changes on one computer, change (would it be changed content of a file, file renaming or deletion, etc.) should be propagated to all other computer(s) that want to keep the folder synchronized. Sync is available for a bunch of platforms, both desktop and mobile, which gives a good usage flexibility.[br][br]
-    [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : this is the path where BitTorrent Sync will store its configuration files.
   </Description>
   <Registry>https://registry.hub.docker.com/u/limetech/sync/</Registry>
@@ -81,7 +91,20 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version></Version>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
   <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/sync.png</Icon>
+
+  <Network Default="bridge">bridge</Network>
+
+  <Config Type="Port" Name="Web Interface Port" Target="8888" Default="8888" Mode="tcp" Display="always-hide" Required="true"
+       Description="This is Sync's Web UI port you can access via a web browser.">8888</Config>
+
+  <Config Type="Port" Name="TCP Data Transfer Port" Target="5555" Default="5555" Mode="tcp" Display="advanced-hide" Required="true"
+       Description="This is Sync's TCP port for data transfers.">5555</Config>
+
+  <Config Type="Port" Name="UDP Data Transfer Port" Target="3838" Default="3838" Mode="udp" Display="advanced-hide" Required="true"
+       Description="This is Sync's UDP port for data transfers.">3838</Config>
+
+  <Config Type="Path" Name="Config Storage Path" Target="/config" Default="/mnt/user/appdata/Sync" Mode="rw" Display="advanced-hide" Required="true"
+       Description="This is where Sync will store its databases and configuration.">/mnt/user/appdata/Sync</Config>
 </Container>
