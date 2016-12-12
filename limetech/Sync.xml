@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-  <Date>2016-12-07</Date>
+  <Date>2016-12-12</Date>
   <Beta>False</Beta>
   <Category>Cloud:</Category>
   <Name>Sync</Name>
@@ -9,6 +9,9 @@
 [center][img width='155px' src='http://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
 
 [center][font size=4]Sync Change Log[/font][/center]
+
+[font size=3]2016.12.12[/font]
+- Updated Sync to version 2.4.4
 
 [font size=3]2016.12.07[/font]
 - Updated Sync to version 2.4.3
