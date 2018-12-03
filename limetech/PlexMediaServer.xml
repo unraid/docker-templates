@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2018-11-07</Date>
+  <Date>2018-12-02</Date>
   <Beta>False</Beta>
   <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Name>PlexMediaServer</Name>
@@ -9,6 +9,9 @@
 [center][img width='155px' src='http://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
 
 [center][font size=4]Plex Media Server Change Log[/font][/center]
+
+[font size=3]2018.12.02[/font]
+- Updated to Plex version 1.14.0.5470
 
 [font size=3]2018.11.07[/font]
 - Updated to Plex version 1.13.9.5456
