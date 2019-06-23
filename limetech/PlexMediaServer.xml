@@ -225,6 +225,11 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/unRaid Shares</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
   <Banner></Banner>
