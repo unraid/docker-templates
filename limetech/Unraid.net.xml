@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.plg</PluginURL>
+<PluginAuthor>limetech</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<Name>Unraid.net</Name>
+<Description>
+This plugins adds webGUI support for registering your server with Unraid.net.  The controls appear under Settings/Management Access.
+Once registered, your server(s) will appear under the My Servers forum menu.
+</Description>
+<Support>https://forums.unraid.net/</Support>
+<Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
+</Containers>
