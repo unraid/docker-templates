@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>easyEPG</Name>
+  <Repository>takealug/easyepg</Repository>
+  <Registry>https://hub.docker.com/r/takealug/easyepg</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>WebGrab++ alternative providing high-quality EPG data from different IPTV/OTT sources</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://iptvx.one/images/EPG.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset>0,1</CPUset>
+  <DateInstalled>1581057937</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>WebGrab++ alternative providing high-quality EPG data from different IPTV/OTT sources</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/docker/appdata/easyepg</HostDir>
+      <ContainerDir>/easyepg</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/docker/appdata/tvheadend/xml/</HostDir>
+      <ContainerDir>/easyepg/xml</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>USER_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>GROUP_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>Europe/Berlin</Value>
+      <Name>TIMEZONE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>15 0,6,15 * * *</Value>
+      <Name>FREQUENCY</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>yes</Value>
+      <Name>UPDATE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>sunsettrack4</Value>
+      <Name>REPO</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>master</Value>
+      <Name>BRANCH</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="USER_ID" Target="USER_ID" Default="" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="TIMEZONE" Target="TIMEZONE" Default="" Mode="" Description="Container Variable: TIMEZONE" Type="Variable" Display="always" Required="false" Mask="false">Europe/Berlin</Config>
+  <Config Name="FREQUENCY 1" Target="FREQUENCY" Default="" Mode="" Description="Container Variable: FREQUENCY" Type="Variable" Display="always" Required="false" Mask="false">15 0,6,15 * * *</Config>
+  <Config Name="UPDATE" Target="UPDATE" Default="" Mode="" Description="Container Variable: UPDATE" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="REPO" Target="REPO" Default="" Mode="" Description="Container Variable: REPO" Type="Variable" Display="always" Required="false" Mask="false">sunsettrack4</Config>
+  <Config Name="BRANCH" Target="BRANCH" Default="" Mode="" Description="Container Variable: BRANCH" Type="Variable" Display="always" Required="false" Mask="false">master</Config>
+  <Config Name="config" Target="/easyepg" Default="" Mode="rw" Description="Container Path: /easyepg" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/docker/appdata/easyepg</Config>
+  <Config Name="xml" Target="/easyepg/xml" Default="" Mode="rw" Description="Container Path: /easyepg/xml" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/docker/appdata/tvheadend/xml/</Config>
+</Container>
