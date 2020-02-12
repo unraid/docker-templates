@@ -4,7 +4,7 @@
 <PluginURL>https://raw.githubusercontent.com/limetech/sysdream/master/sysdream.plg</PluginURL>
 <PluginAuthor>limetech</PluginAuthor>
 <Beta>False</Beta>
-<Category>Tools:System</Category>
+<Category>Tools:System Security:</Category>
 <Name>sysdream mitigation</Name>
 <Description>
 Patches the "template.php" file to address reported vulnerabilities in Unraid 6.6 and 6.7 versions.
