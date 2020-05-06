@@ -1,0 +1,13 @@
+<Language>
+  <LanguageDefault>true</LanguageDefault>
+  <Language>English</Language>
+  <LanguageLocal></LanguageLocal>
+	<LanguagePack>en_US</LanguagePack>
+  <Author>Limetech</Author>
+  <Name>English</Name>
+  <TemplateURL>https://github.com/limetech/docker-templates/limetech/raw/master/lang-en_US.xml</TemplateURL>
+  <Icon>https://github.com/limetech/docker-templates/limetech/raw/master/Green-Earth-Transparent-File.png</Icon>
+  <Description>
+    This is the default English Language Pack for Unraid
+  </Description>
+ </Language>
