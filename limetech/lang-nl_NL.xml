@@ -6,7 +6,7 @@
 	<Author>Bergware</Author>
 	<Name>Nederlandse vertaling</Name>
 	<TemplateURL>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/lang-nl_NL.xml</TemplateURL>
-	<Version>2020.05.02</Version>
+	<Version>2020.05.02a</Version>
 	<Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 	<Description>
 Dit is een Nederlandse vertaling voor Unraid en ondersteunde plug-ins
