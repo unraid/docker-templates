@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Language>
 	<LanguageURL>https://github.com/limetech/lang-nl_NL/archive/master.zip</LanguageURL>
 	<Language>Dutch</Language>
@@ -9,12 +10,12 @@
 	<Version>2020.05.02</Version>
 	<Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 	<Description>
-Dit is een Nederlandse vertaling voor Unraid en ondersteunde plug-ins
+	Dit is een Nederlandse vertaling voor Unraid en ondersteunde plug-ins
 
-This is a Dutch Translation for Unraid and supported plugins
+	This is a Dutch Translation for Unraid and supported plugins
 	</Description>
 	<Changes>
-###2020.05.02
-- Initial Release
+	###2020.05.02
+	- Initial Release
 	</Changes>
 </Language>
