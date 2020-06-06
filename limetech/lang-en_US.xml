@@ -5,7 +5,7 @@
 <LanguageLocal>American</LanguageLocal>
 <LanguagePack>en_US</LanguagePack>
 <Author>Limetech</Author>
-<Name>English (built-in)</Name>
+<Name>English language pack</Name>
 <TemplateURL>https://github.com/limetech/docker-templates/limetech/raw/master/lang-en_US.xml</TemplateURL>
 <Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 <Description>
