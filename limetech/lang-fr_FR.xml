@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language>
+<LanguageURL>https://github.com/unraid/lang-fr_FR/archive/master.zip</LanguageURL>
 <Language>French</Language>
 <LanguageLocal>Français</LanguageLocal>
 <LanguagePack>fr_FR</LanguagePack>
-<Author>Patrick Fortin-Ducharme, Daniel Potvin, David Boutet, William Mailhot, Yoann J
-</Author>
+<Author>Patrick Fortin-Ducharme, Daniel Potvin, David Boutet, William Mailhot, Yoann J</Author>
 <Name>French</Name>
-
-<LanguageURL>https://github.com/unraid/lang-fr_FR/archive/master.zip</LanguageURL>
-
 <TemplateURL>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/lang-fr_FR.xml</TemplateURL>
-
+<Version>2020.06.06</Version>
 <Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 <Description>
 Ceci est le module officiel de langue française pour Unraid.
-This is the built-in French language pack for Unraid.
+
+This is a French Translation for Unraid and supported plugins
 </Description>
+<Changes>
+###2020.06.06
+- Initial Release
+</Changes>
 </Language>
