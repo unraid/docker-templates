@@ -5,9 +5,9 @@
 <LanguageLocal>Español</LanguageLocal>
 <LanguagePack>es_ES</LanguagePack>
 <Author>Sergio Fraile, Carlos Rodriguez, Hector Alcala, Brendan Cazier, Christian Sosa, Roy Quiceno</Author>
-<Name>Spanish language pack</Name>
+<Name>Paquete de idioma español</Name>
 <TemplateURL>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/lang-es_ES.xml</TemplateURL>
-<Version>2020.06.06</Version>
+<Version>2020.06.08</Version>
 <Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 <Description>
 Este es el paquete de traducción al español para Unraid
@@ -15,7 +15,7 @@ Este es el paquete de traducción al español para Unraid
 This is a Spanish translation for Unraid and supported plugins
 </Description>
 <Changes>
-###2020.06.06
+###2020.06.08
 - Initial Release
 </Changes>
 </Language>
