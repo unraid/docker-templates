@@ -10,9 +10,11 @@
 <Version>2020.06.08</Version>
 <Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 <Description>
-Este es el paquete de traducción al español para Unraid
+Este es el paquete de traducción al español para Unraid.
 
-This is a Spanish translation for Unraid and supported plugins
+This is a Spanish translation for Unraid and supported plugins.
+
+  Every effort has been made to ensure accuracy of translations; however, please consult the built-in English language pack if something is unclear.
 </Description>
 <Changes>
 ###2020.06.08
