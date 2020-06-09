@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+<LanguageURL>https://github.com/unraid/lang-de_DE/archive/master.zip</LanguageURL>
+<Language>German</Language>
+<LanguageLocal>Deutsch</LanguageLocal>
+<LanguagePack>de_DE</LanguagePack>
+<Author>ich777, eiselmayer, FunnyPocketBook, darkman1983, Sledgehamma, NextBlaubeere, Spiritreader</Name>
+<Name>Deutsches Sprachpaket</Name>
+<TemplateURL>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/lang-de_DE.xml</TemplateURL>
+<Version>2020.06.09</Version>
+<Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
+<Description>
+Dies ist die deutsche Übersetzung für Unraid und unterstützte Plugins.
+
+This is a German translation for Unraid and supported plugins.
+
+Every effort has been made to ensure accuracy of translations; however, please consult the built-in English language pack if something is unclear.
+</Description>
+<Changes>
+###2020.06.09
+- Initial Release
+</Changes>
+</Language>
