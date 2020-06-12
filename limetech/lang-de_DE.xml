@@ -4,7 +4,8 @@
 <Language>German</Language>
 <LanguageLocal>Deutsch</LanguageLocal>
 <LanguagePack>de_DE</LanguagePack>
-<Author>Christoph Hummer,Ying-Kai Dang, Uli Fahrer, Rene Roloff, Manauer Uel, vakilando, eiselmayer, André Hamm Vinga, Timo Stepputtis</Name>
+<Author>Christoph Hummer,Ying-Kai Dang, Uli Fahrer, Rene Roloff, Manauer Uel, vakilando, eiselmayer, André Hamm Vinga, Timo Stepputtis</Author>
+<Name>Deutsches Sprachpaket</Name>
 <TemplateURL>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/lang-de_DE.xml</TemplateURL>
 <Version>2020.06.09</Version>
 <Icon>https://raw.githubusercontent.com/limetech/docker-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
