@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-<Icon>some url</Icon>
+<Icon>https://craftassets.unraid.net/uploads/Social-Circle-@2x.png</Icon>
 <Profile>
-blah blah blah
+Lime Technology Inc is the maker of Unraid OS. Unraid is an OS for personal and small business use that brings enterprise-class features letting you configure your computer systems to maximize performance and capacity using any combination of applications, VMs, storage devices, and hardware.
 </Profile>
-<DonateLink></DonateLink>
 <WebPage>https://unraid.net/</WebPage>
-<Forum>https://forums.unraid.net/<Forum>
+<Forum>https://forums.unraid.net</Forum>
+<Twitter>https://twitter.com/UnraidOfficial</Twitter>
+<Facebook>https://www.facebook.com/UnraidOfficial</Facebook>
+<Reddit>https://www.reddit.com/r/unRAID/</Reddit>
 </Maintainer>
