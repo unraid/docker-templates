@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+	<Date>2021-03-05</Date>
+	<Beta>False</Beta>
+	<Category>Surveillance</Category>
+	<Name>AgentDvr</Name>
+	<Project>https://www.ispyconnect.com/</Project>
+	<Changes>
+		[font size=3]2021.02.26[/font]
+		- Updated to iSpy Agent DVR version 3.1.9.0
+	</Changes>
+	<Overview>
+		Agent DVR is a standalone replacement for iSpy that runs as a service, uses less CPU and features a web user interface that is accessible from anywhere with no port forwarding required!
+	</Overview>
+	<Description>
+		Home Security[br]
+		Integrated with Home Assistant, IFTTT and Alexa means Agent DVR can form a key part of your home security setup. Automate your alarms and set your cameras to start recording when you leave an area and disarm when you return using Geofencing.[br]
+		Theft Prevention[br]
+		Advanced object recognition and AI cut down on false alerts whilst protecting your investments. Recordings can be saved locally and to the cloud - ensuring evidence is secure even if the device itself is stolen.[br]
+		Wildlife Watching[br]
+		A discrete webcam reveals a wonderful world of wildlife. Agent DVR can record movement in a burrow or nest and send it straight to your email or mobile device.[br]
+	</Description>
+	<Registry>https://www.ispyconnect.com/app/</Registry>
+	<GitHub>https://github.com/doitandbedone/ispyagentdvr-docker</GitHub>
+	<Repository>doitandbedone/ispyagentdvr</Repository>
+	<Support>https://www.reddit.com/r/ispyconnect/</Support>
+	<BindTime>true</BindTime>
+	<Privileged>true</Privileged>
+	<Networking>
+		<Mode>host</Mode>
+		<Publish>
+			<Port>
+				<HostPort>8090</HostPort>
+				<ContainerPort>8090</ContainerPort>
+			</Port>
+			<Port>
+				<HostPort>3478</HostPort>
+				<ContainerPort>3478</ContainerPort>
+				<Protocol>udp</Protocol>
+			</Port>
+			<Port>
+				<HostPort>50000-50010</HostPort>
+				<ContainerPort>50000-50010</ContainerPort>
+				<Protocol>udp</Protocol>
+			</Port>
+		</Publish>
+	</Networking>
+	<Environment/>
+	<Data>
+		<Volume>
+			<HostDir>/mnt/user/appdata/AgentDvr</HostDir>
+			<ContainerDir>/agent/Media/XML/</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+		<Volume>
+			<HostDir>/mnt/user/appdata/AgentDvr</HostDir>
+			<ContainerDir>/agent/Media/WebServerRoot/Media/</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+		<Volume>
+			<HostDir>/mnt/user/appdata/AgentDvr</HostDir>
+			<ContainerDir>/agent/Commands</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+	</Data>
+	<WebUI>http://[IP]:[PORT:8090]</WebUI>
+	<Banner></Banner>
+	<Icon>https://ispycontent.azureedge.net/img/ispy2.png</Icon>
+</Containers>
