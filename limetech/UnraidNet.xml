@@ -9,7 +9,7 @@
 <Description>
 My Servers is designed to extend the value of your investment in Unraid by enabling you to more easily connect, share, monitor, and access your Unraid Server.
 </Description>
-<ExtraSearchTerms>MyServers My%20Servers unraid-api%20(Limetech) unraid%20api%20(Limetech)</ExtraSearchTerms>
+<ExtraSearchTerms>My%20Servers unraid%20api</ExtraSearchTerms>
 <Support>https://forums.unraid.net/forum/55-general-support/</Support>
 <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
 </Containers>
