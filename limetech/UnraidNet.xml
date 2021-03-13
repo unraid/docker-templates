@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.plg</PluginURL>
+<PluginURL>https://s3.amazonaws.com/dnld.lime-technology.com/unraid-api/dynamix.unraid.net.plg</PluginURL>
 <PluginAuthor>limetech</PluginAuthor>
-<Beta>False</Beta>
+<Beta>True</Beta>
 <Category>Tools:System</Category>
 <Name>Unraid.net</Name>
 <Description>
-This plugins adds webGUI support for registering your server with Unraid.net.  The controls appear under Settings/Management Access.
-Once registered, your server(s) will appear under the My Servers forum menu.
+My Servers is designed to extend the value of your investment in Unraid by enabling you to more easily connect, share, monitor, and access your Unraid Server.
 </Description>
-<Support>https://forums.unraid.net/</Support>
+<Support>https://forums.unraid.net/forum/55-general-support/</Support>
 <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
 </Containers>
