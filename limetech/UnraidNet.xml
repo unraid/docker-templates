@@ -9,7 +9,7 @@
 <Description>
 My Servers is designed to extend the value of your investment in Unraid by enabling you to more easily connect, monitor, and access your Unraid server. Download and sign-in with your Unraid.net account to unlock the benefits of My Servers.
 </Description>
-<ExtraSearchTerms>My%20Servers unraid%20api Unraid.net</ExtraSearchTerms>
+<ExtraSearchTerms>My%20Servers unraid%20api Unraid.net myservers</ExtraSearchTerms>
 <Support>https://forums.unraid.net/topic/104018-my-servers-early-access-plugin/</Support>
 <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
 </Containers>
