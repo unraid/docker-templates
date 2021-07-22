@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://s3.amazonaws.com/dnld.lime-technology.com/unraid-api/dynamix.unraid.net.plg</PluginURL>
+<PluginURL>https://unraid-dl.sfo2.cdn.digitaloceanspaces.com/unraid-api/dynamix.unraid.net.plg</PluginURL>
 <PluginAuthor>limetech</PluginAuthor>
 <Beta>True</Beta>
 <Category>Tools:System</Category>
