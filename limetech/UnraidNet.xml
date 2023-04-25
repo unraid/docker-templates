@@ -11,7 +11,7 @@ Unraid Connect is your one-stop shop for server management, monitoring, and main
 </Description>
 <ExtraSearchTerms>My%20Servers unraid%20api Unraid.net myservers</ExtraSearchTerms>
 <Support>https://forums.unraid.net/forum/94-support/</Support>
-<Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
+<Icon>https://dnld.lime-technology.com/connect/mark_gradient.png</Icon>
 <Screenshot>https://dnld.lime-technology.com/connect/details.png</Screenshot>
 <Screenshot>https://dnld.lime-technology.com/connect/overview.png</Screenshot>
 </Containers>
