@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://stable.dl.unraid.net/unraid-api/dynamix.unraid.net.plg</PluginURL>
+<PluginAuthor>limetech</PluginAuthor>
+<Beta>True</Beta>
+<Category>Tools:System</Category>
+<Name>Unraid Connect</Name>
+<Description>
+Unraid Connect is your one-stop shop for server management, monitoring, and maintenance. Enjoy the convenience and connectivity of the cloud and take your Unraid experience to the next level with Connect.
+</Description>
+<ExtraSearchTerms>My%20Servers myservers unraid%20api unraid-api myunraid.net unraid.net connect.myunraid.net connect.unraid.net dashboard remote%20access flash%20backup UnraidConnect</ExtraSearchTerms>
+<Support>https://forums.unraid.net/forum/94-support/</Support>
+<Icon>https://dnld.lime-technology.com/connect/mark_gradient.png</Icon>
+<Screenshot>https://dnld.lime-technology.com/connect/details.png</Screenshot>
+<Screenshot>https://dnld.lime-technology.com/connect/overview.png</Screenshot>
+<Video>https://www.youtube.com/watch?v=NNsnjSde5rc</Video>
+</Containers>
