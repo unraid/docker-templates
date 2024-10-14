@@ -5,10 +5,9 @@
     <Beta>True</Beta>
     <Category>Network:VPN</Category>
     <Name>Tailscale (Plugin) - Preview</Name>
-    <Description>
-        Experience the latest updates to the Tailscale plugin. With this version, you're at the forefront, gaining early access to the newest updates. After an initial release period, these updates are rolled out to the standard plugin, ensuring everyone benefits from the improvements.
+    <Description>Experience the latest updates to the Tailscale plugin. With this version, you're at the forefront, gaining early access to the newest updates. After an initial release period, these updates are rolled out to the standard plugin, ensuring everyone benefits from the improvements.
         
-        Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. The service handles complex network configuration on your behalf so that you don't have to. Network connections between devices pierce through firewalls and routers as if they weren't there, allowing for direct connections without the need to manually configure port forwarding.
+    Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. The service handles complex network configuration on your behalf so that you don't have to. Network connections between devices pierce through firewalls and routers as if they weren't there, allowing for direct connections without the need to manually configure port forwarding.
     </Description>
     <Support>https://forums.unraid.net/topic/136889-plugin-tailscale/</Support>
     <Project>https://tailscale.com/</Project>
