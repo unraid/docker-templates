@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/Squidly271/docker.categorize/master/plugins/docker.categorize.plg</PluginURL>
+<PluginAuthor>Andrew Zawadzki</PluginAuthor>
+<Beta>False</Beta>
+<Category>Other:</Category>
+<Name>Application Categorizer</Name>
+<CA>accessory</CA>
+<MinVer>6.0</MinVer>
+<Description>
+This plugin is for application developers ONLY.  It will create the category entries for application templates so that Community Applications can display the apps correctly.  (Either docker apps or plugins)  https://forums.unraid.net/discover/92
+</Description>
+<Support>https://forums.unraid.net/topic/38431-plug-in-application-template-categorizer/</Support>
+<IconFA>list-alt</IconFA>
+<Licence>https://github.com/maubot/maubot/blob/master/LICENSE</Licence>
+</Containers>
