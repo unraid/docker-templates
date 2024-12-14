@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/community.applications/master/plugins/community.applications.plg</PluginURL>
+<PluginAuthor>Lime Technology</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<multiLanguage>true</multiLanguage>
+<Name>Community Applications</Name>
+<Description>
+This is THE place to find add-on applications for your Unraid server.
+</Description>
+<MinVer>6.4.0</MinVer>
+<Date>2019-02-09</Date>
+<Support>https://forums.unraid.net/topic/38582-plug-in-community-applications/</Support>
+<Icon>https://raw.githubusercontent.com/unraid/docker-templates/master/images/CA.png</Icon>
+</Containers>
+
