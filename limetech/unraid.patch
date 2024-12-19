@@ -4,7 +4,7 @@
 <PluginURL>https://raw.githubusercontent.com/unraid/unraid.patch/main/plugins/unraid.patch.plg</PluginURL>
 <PluginAuthor>Lime Technology</PluginAuthor>
 <Beta>False</Beta>
-<Category>Other:</Category>
+<Category>Security: Tools:System</Category>
 <Name>Unraid Patch</Name>
 <MinVer>6.10.0</MinVer>
 <Description>
