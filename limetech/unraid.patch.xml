@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/unraid.patch/main/plugins/unraid.patch.plg</PluginURL>
+<PluginAuthor>Lime Technology</PluginAuthor>
+<Beta>False</Beta>
+<Category>Other:</Category>
+<Name>Unraid Patch</Name>
+<MinVer>6.10.0</MinVer>
+<Description>
+Keeps your server up to date with the latest patches for the OS</Description>
+<Support>https://forums.unraid.net/topic/38431-plug-in-application-template-categorizer/</Support>
+<IconFA>asterisk</IconFA>
+<Licence>https://github.com/maubot/maubot/blob/master/LICENSE</Licence>
+</Containers>
