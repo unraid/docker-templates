@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/fix.common.problems/master/plugins/fix.common.problems.plg</PluginURL>
+<PluginAuthor>Lime Technology</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<Name>Fix Common Problems</Name>
+<CA>AddOn</CA>
+<Description>
+Fix Common Problems is designed to find and suggest solutions to common unRaid configuration errors, common problems, etc.
+</Description>
+<Date>2019-01-19</Date>
+<Support>https://forums.unraid.net/topic/47266-plugin-ca-fix-common-problems/</Support>
+<Icon>https://raw.githubusercontent.com/Squidly271/fix.common.problems/master/9617be8364816010_400x400ar.png</Icon>
+<Screenshot>https://github.com/Squidly271/community.applications/raw/master/webImages/fix%20common%20problems.jpg</Screenshot>
+</Containers>
