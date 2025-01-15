@@ -2,7 +2,7 @@
 <Containers>
 <Plugin>True</Plugin>
 <PluginURL>https://raw.githubusercontent.com/unraid/fix.common.problems/master/plugins/fix.common.problems.plg</PluginURL>
-<PluginAuthor>Lime Technology</PluginAuthor>
+<PluginAuthor>Andrew Zawadzki/PluginAuthor>
 <Beta>False</Beta>
 <Category>Tools:System</Category>
 <Name>Fix Common Problems</Name>
