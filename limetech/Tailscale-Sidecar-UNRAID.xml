@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Tailscale-Sidecar-UNRAID</Name>
+  <Repository>tailscale/tailscale:stable</Repository>
+  <Registry>https://hub.docker.com/r/tailscale/tailscale</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <MinVer>7.0.1-rc.0.1</MinVer>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/forum/111-tailscale/</Support>
+  <Project>https://github.com/tailscale/tailscale</Project>
+  <Overview>Usage:&#xD;
+1. Change UNRAID part from the Name from this container to something unique&#xD;
+2. Configure the Tailscale options to your likings (Hostname, Exit Node, Userspace Networking,... _No extra variables needed!_)&#xD;
+3. Deploy the Tailscale Sidecar container&#xD;
+4. Open the Docker template from the container that want to pass through through the Sidecar container&#xD;
+5. At Network Type select **Container**&#xD;
+6. At Container Netwrok select the name from this container **Tailscale-Sidecar-YOURNAME**&#xD;
+7. Deploy the container&#xD;
+&#xD;
+_Tailscale Serve: If you want to use Serve please enable it manually and enter the port that the Sidecar should use for Serve, this container can't automatically detect the port from the container that you want pass through Tailscale._&#xD;
+&#xD;
+#### ATTENTION: This template from the Tailscale Sidecar is specificly designed to work with the Unraid Tailscale Docker integration! If you don't plan to use the Unraid Tailscale Docker integration with a Tailscale Sidecar please use the container: _Tailscale-Docker_ (found in CA App) by: _EDACerton_</Overview>
+  <Category>Network:VPN Network:Privacy Productivity:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/dkaser/unraid-plugins/master/tailscale-docker.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/refs/heads/master/ich777/images/tailscale.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="State Storage" Target="/var/lib/tailscale" Default="" Mode="rw" Description="Path to Tailscale state directories.  &#13;&#10;(You can use one directory for multiple containers, a subfolder is created for each Tailscale Machine name)" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/tailscale</Config>
+  <Config Name="State Directory" Target="TS_STATE_DIR" Default="" Mode="" Description="Only change if you know what you are doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false">/var/lib/tailscale</Config>
+  <TailscaleEnabled>true</TailscaleEnabled>
+  <TailscaleIsExitNode>false</TailscaleIsExitNode>
+  <TailscaleHostname/>
+  <TailscaleExitNodeIP/>
+  <TailscaleSSH>false</TailscaleSSH>
+  <TailscaleUserspaceNetworking>false</TailscaleUserspaceNetworking>
+  <TailscaleLANAccess>false</TailscaleLANAccess>
+  <TailscaleServe>no</TailscaleServe>
+  <TailscaleWebUI/>
+  <TailscaleDParams/>
+  <TailscaleParams/>
+  <TailscaleRoutes/>
+  <TailscaleAcceptRoutes>false</TailscaleAcceptRoutes>
+  <TailscaleStateDir/>
+</Container>
