@@ -10,5 +10,5 @@ This plugin satisfies installation prerequisites of the GPU Statistics plugin fr
 
 ATTENTION: If you plan to pass through your card to a VM don't install this plugin!</Description>
   <Support>https://forums.unraid.net/topic/98978-plugin-nvidia-driver/</Support>
-  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/nvidia-driver.png</Icon>
+  <Icon>https://raw.githubusercontent.com/unraid/docker-templates/master/unraid/images/nvidia-driver.png</Icon>
 </Containers>
