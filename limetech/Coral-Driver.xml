@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <PluginURL>https://raw.githubusercontent.com/unraid/unraid-coral-driver/master/coral-driver.plg</PluginURL>
+  <PluginAuthor>limetech</PluginAuthor>
+  <Beta>False</Beta>
+  <Requires>PCI based Coral TPU</Requires>
+  <Category>Productivity: Tools:System Drivers:</Category>
+  <Name>Coral Accelerator Module Drivers</Name>
+  <Description>This package contains the Coral Accelerator Module Drivers (for PCI based TPUs) and installs them to utilize them in your Docker containers.&#xD;
+Only necessary for PCI based Coral TPUs!</Description>
+  <Support>https://forums.unraid.net/topic/92865-support-ich777-nvidiadvb-kernel-helperbuilder-docker/</Support>
+  <Icon>https://raw.githubusercontent.com/unraid/docker-templates/refs/heads/master/images/coral-driver.png</Icon>
+</Containers>
