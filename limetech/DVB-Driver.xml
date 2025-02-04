@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <PluginURL>https://raw.githubusercontent.com/unraid/unraid-dvb-driver/master/dvb-driver.plg</PluginURL>
+  <PluginAuthor>limetech</PluginAuthor>
+  <Beta>False</Beta> 
+  <Category>Productivity: Tools:System Drivers:</Category>
+  <Name>DVB-Drivers</Name>
+  <Description>This Plugin will install all necessary modules and dependencies to get your DVB Cards working (currently you have the choice between DigitalDevices, TBS-OpenSource and LibreELEC DVB drivers on the settings page).</Description>
+  <Support>https://forums.unraid.net/topic/99027-plugin-dvb-driver/</Support>
+  <Icon>https://raw.githubusercontent.com/unraid/docker-templates/refs/heads/master/images/dvb-driver.png</Icon>
+</Containers>
