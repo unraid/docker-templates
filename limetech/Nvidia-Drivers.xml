@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <PluginURL>https://raw.githubusercontent.com/unraid/unraid-nvidia-driver/master/nvidia-driver.plg</PluginURL>
-  <PluginAuthor>ich777</PluginAuthor>
+  <PluginAuthor>limetech</PluginAuthor>
   <Beta>False</Beta>
   <Category>Productivity: Tools:System Drivers:</Category>
   <Name>Nvidia-Driver</Name>
