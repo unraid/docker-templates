@@ -16,7 +16,7 @@
 3. Deploy the Tailscale Sidecar container&#xD;
 4. Open the Docker template from the container that want to pass through through the Sidecar container&#xD;
 5. At Network Type select **Container**&#xD;
-6. At Container Netwrok select the name from this container **Tailscale-Sidecar-YOURNAME**&#xD;
+6. At Container Network select the name from this container **Tailscale-Sidecar-YOURNAME**&#xD;
 7. Deploy the container&#xD;
 &#xD;
 _Tailscale Serve: If you want to use Serve please enable it manually and enter the port that the Sidecar should use for Serve, this container can't automatically detect the port from the container that you want pass through Tailscale._&#xD;
