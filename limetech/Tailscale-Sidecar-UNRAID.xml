@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
-  <MinVer>7.0.1-rc.0.1</MinVer>
+  <MinVer>7.1.0-beta.0.1</MinVer>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/forum/111-tailscale/</Support>
   <Project>https://github.com/tailscale/tailscale</Project>
