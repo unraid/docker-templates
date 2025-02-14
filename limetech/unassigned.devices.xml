@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/unassigned.devices/master/unassigned.devices.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.11</MinVer>
+<Category>Tools:System</Category>
+<Date>2025-01-14</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Unassigned Devices</Name>
+<Description>
+Unassigned Devices is used to mount and share non-array disks, remote SMB or NFS shares, and iso files.
+</Description>
+<Support>https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/</Support>
+<IconFA>unlink</IconFA>
+</Containers>
