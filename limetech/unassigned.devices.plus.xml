@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/unassigned.devices/master/unassigned.devices-plus.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.11</MinVer>
+<Category>Tools:System</Category>
+<Date>2024-04-01</Date>
+<License>GPL Licensed</License>
+<Requires>Unassigned Devices installed</Requires>
+<RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
+<multiLanguage>true</multiLanguage>
+<Name>Unassigned Devices Plus (Addon)</Name>
+<Description>
+Enables support in the Unassigned Devices Plugin for HFS+, exFAT, and apfs disk formats, and to enable destructive mode.
+</Description>
+<Support>https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/</Support>
+<IconFA>unlink</IconFA>
+</Containers>
