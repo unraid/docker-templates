@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/unassigned.devices/master/unassigned.devices.preclear.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.11</MinVer>
+<ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
+<Category>Tools:System</Category>
+<Date>2025-01-29</Date>
+<License>GPL Licensed</License>
+<Requires>Unassigned Devices installed</Requires>
+<RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
+<multiLanguage>true</multiLanguage>
+<Name>Unassigned Devices Preclear</Name>
+<Description>
+Unassigned Devices Preclear is used to exercise and clear disks and prepare them for adding to the array.
+</Description>
+<Support>https://forums.unraid.net/topic/120567-unassigned-devices-preclear-a-utility-to-preclear-disks-before-adding-them-to-the-array/</Support>
+<IconFA>icon-preclear</IconFA>
+</Containers>
