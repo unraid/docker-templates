@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/dlandon/cache_dirs/master/dlandon.cache.dirs.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.12</MinVer>
+<Category>Tools:System, Plugins</Category>
+<Date>2024-04-25</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Dynamix Cache Directories</Name>
+<Description>
+Keeps folder information in memory to prevent unnecessary disk spin up. Dynamix builds a GUI front-end to allow entering of parameters for the cache_dirs script which is running in the background.
+</Description>
+
+</Containers>
