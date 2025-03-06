@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/unraid/tips.and.tweaks/master/tips.and.tweaks.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.11</MinVer>
+<Category>Tools:System</Category>
+<Date>2025-02-03</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Tips and Tweaks</Name>
+<Description>
+Tips and Tweaks gives you tips on issues in certain versions of Unraid and lets you make some adjustments to Ethernet NIC(s), disk cache settings, and CPU scaling governors that can potentially help with performance and latency issues.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=49233.0</Support>
+<IconFA>gear</IconFA>
+</Containers>
