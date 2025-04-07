@@ -7,6 +7,7 @@
 <Category>Security: Tools:System</Category>
 <Name>Unraid Patch</Name>
 <MinVer>6.10.0</MinVer>
+<MaxVer>7.0.999</MaxVer>
 <Description>
 Keeps your server up to date with the latest patches for the OS</Description>
 <Support>https://forums.unraid.net/topic/185560-unraid-patch-plugin/</Support>
