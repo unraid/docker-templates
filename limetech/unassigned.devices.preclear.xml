@@ -2,7 +2,7 @@
 <Containers>
 <Plugin>True</Plugin>
 <PluginURL>https://raw.githubusercontent.com/unraid/unassigned.devices/master/unassigned.devices.preclear.plg</PluginURL>
-<PluginAuthor>dlandon</PluginAuthor>
+<PluginAuthor>Limetech</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.11</MinVer>
 <ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
