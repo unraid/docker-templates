@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/unraid/45d-drivemap/releases/latest/download/45d-drivemap.plg</PluginURL>
+<PluginAuthor>45Drives + Unraid</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<Name>45D Drive Map</Name>
+<MinVer>6.12.0</MinVer>
+<Requires>45Drives system, such as an X-15 or HL-15</Requires>
+<Description>
+Embed the 45Drives disk map UI directly in Unraid's Main page and generate map/server metadata on the Unraid host. This plugin is supported on 45Drives systems only, such as X-15 and HL-15 systems.
+</Description>
+<Support>https://github.com/unraid/45d-drivemap/issues</Support>
+<IconFA>th</IconFA>
+</Containers>
