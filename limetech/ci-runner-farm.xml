@@ -22,7 +22,6 @@ CI Runner Farm executes GitHub Actions jobs in [b]privileged Docker-in-Docker[/b
 [br][br]
 By installing you acknowledge these risks and accept responsibility for what runs on your fleet.
 </Requires>
-<!-- TODO(before submission): replace with the dedicated Unraid forum support-thread URL (CA requires it). -->
 <Support>https://github.com/unraid/ci-runner-farm/issues</Support>
 <Project>https://github.com/unraid/ci-runner-farm</Project>
 <Icon>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/community-applications/ci-runner-farm.png</Icon>
