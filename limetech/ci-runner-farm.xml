@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/unraid/ci-runner-farm/releases/latest/download/ci-runner-farm.plg</PluginURL>
+<PluginAuthor>Lime Technology</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System: Network:Management: Productivity:</Category>
+<Name>CI Runner Farm</Name>
+<Description>
+Turn your Unraid server into a fleet of GitHub Actions self-hosted BUILD runners — multiple concurrent, resource-capped runners running as Docker containers (no VM), with warm shared caches on a fast pool, queue-aware autoscaling, and Docker-in-Docker so jobs that use services: and docker build just work.
+[br][br]
+Point it at a repo or organization, paste a GitHub token, and your CI runs on your own hardware — as many jobs in parallel as your box can handle, with pnpm/npm/yarn/Playwright caches that stay hot between runs, at zero cost per minute. Everything is configured from a single webGUI page: store your token, Start/Stop/Restart/Scale, watch live status, and build your runner image.
+[br][br]
+[b]Security:[/b] self-hosted runners execute arbitrary workflow code on your hardware, and DinD runners run privileged. Use them only for trusted/private repositories — never let public/fork-PR code run on a privileged self-hosted runner. The plugin actively warns you when a privileged runner is pointed at a public repo. See the README for full guidance.
+</Description>
+<Requires>
+[b]&#9888; Security — this plugin runs arbitrary CI code as root on your server.[/b]
+[br][br]
+CI Runner Farm executes GitHub Actions jobs in [b]privileged Docker-in-Docker[/b] containers on this Unraid box. Any workflow scheduled onto the fleet — [b]including a pull request from a fork of a public repo[/b] — runs with root-equivalent access to the host Docker daemon and to any shares you expose to it.
+[br][br]
+[b]Only run trusted workflows on trusted runners.[/b] Point the fleet at [b]private / trusted repositories only[/b]; never let public or fork-PR code run on a privileged self-hosted runner. At org scope, use a runner group restricted to your private repos. The plugin also warns you live in its settings page if it detects a public repo on a privileged fleet.
+[br][br]
+By installing you acknowledge these risks and accept responsibility for what runs on your fleet.
+</Requires>
+<!-- TODO(before submission): replace with the dedicated Unraid forum support-thread URL (CA requires it). -->
+<Support>https://github.com/unraid/ci-runner-farm/issues</Support>
+<Project>https://github.com/unraid/ci-runner-farm</Project>
+<Icon>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/community-applications/ci-runner-farm.png</Icon>
+<Screenshot>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/docs/images/3-autoscaling.png</Screenshot>
+</Containers>
