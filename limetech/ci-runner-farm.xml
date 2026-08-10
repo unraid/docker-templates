@@ -4,7 +4,7 @@
 <PluginURL>https://github.com/unraid/ci-runner-farm/releases/latest/download/ci-runner-farm.plg</PluginURL>
 <PluginAuthor>Lime Technology</PluginAuthor>
 <Beta>False</Beta>
-<Category>Tools:System: Network:Management: Productivity:</Category>
+<Category>Tools:System Network:Management Productivity:</Category>
 <Name>CI Runner Farm</Name>
 <Description>
 Turn your Unraid server into a fleet of GitHub Actions self-hosted BUILD runners — multiple concurrent, resource-capped runners running as Docker containers (no VM), with warm shared caches on a fast pool, queue-aware autoscaling, and Docker-in-Docker so jobs that use services: and docker build just work.
