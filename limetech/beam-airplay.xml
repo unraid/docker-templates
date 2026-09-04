@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AirPlay for Unraid Beam</Name>
+  <AppTemplateType>unraid_beam</AppTemplateType>
+  <PluginURL>https://preview.dl.unraid.net/beam/4ac9e82b1feeebd062da5a5af4e99d81eabb7cb7/beam-airplay-manifest.json</PluginURL>
+  <PluginRuntime>core</PluginRuntime>
+  <MinVer>8.0.0-beta.0</MinVer>
+  <Overview>AirPlay receiver support for Unraid Beam. Install Unraid Beam first; this app provides the AirPlay provider and runtime workload.</Overview>
+  <Category>MediaApp:Video Tools:System</Category>
+  <Project>https://github.com/unraid/beam</Project>
+  <Support>https://github.com/unraid/beam/issues</Support>
+  <IconFA>tv</IconFA>
+  <Maintainer>
+    <WebPage>https://github.com/unraid/beam</WebPage>
+  </Maintainer>
+</Container>
