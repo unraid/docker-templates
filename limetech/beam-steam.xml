@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Steam</Name>
+  <AppTemplateType>unraid_beam</AppTemplateType>
+  <PluginURL>https://preview.dl.unraid.net/beam/9ee22343302a16301c087e8cae08931ee2a694ea/beam-steam-manifest.json</PluginURL>
+  <PluginRuntime>core</PluginRuntime>
+  <MinVer>8.0.0-beta.0</MinVer>
+  <Overview>Steam with Unraid Beam compatibility fixes. Install Unraid Beam first; container updates use Beam's stable app channel.</Overview>
+  <Category>MediaApp:Video Tools:System</Category>
+  <Project>https://github.com/unraid/beam</Project>
+  <Support>https://github.com/unraid/beam/issues</Support>
+  <IconFA>steam</IconFA>
+  <Maintainer>
+    <WebPage>https://github.com/unraid/beam</WebPage>
+  </Maintainer>
+</Container>
