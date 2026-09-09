@@ -25,5 +25,5 @@ By installing you acknowledge these risks and accept responsibility for what run
 <Support>https://github.com/unraid/ci-runner-farm/issues</Support>
 <Project>https://github.com/unraid/ci-runner-farm</Project>
 <Icon>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/community-applications/ci-runner-farm.png</Icon>
-<Screenshot>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/docs/images/3-autoscaling.png</Screenshot>
+<Screenshot>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/docs/images/fleet.png</Screenshot>
 </Containers>
