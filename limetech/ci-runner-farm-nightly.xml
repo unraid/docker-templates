@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Plugin>True</Plugin>
+    <PluginURL>https://github.com/unraid/ci-runner-farm/releases/download/nightly/ci-runner-farm-nightly.plg</PluginURL>
+    <PluginAuthor>Lime Technology</PluginAuthor>
+    <Beta>True</Beta>
+    <Category>Tools:System: Network:Management: Productivity:</Category>
+    <Name>CI Runner Farm - Nightly</Name>
+    <Description>Early access builds of CI Runner Farm, published from the main branch after validation on the self-hosted runner farm.
+
+    This separately named beta entry contains unreleased mainline changes and is intended for CI Runner Farm fleet validation. Use the stable CI Runner Farm entry for production systems. It preserves the same installed runtime and configuration contract, so switching channels replaces the stable fleet rather than creating a second fleet.
+
+    CI Runner Farm provides concurrent, resource-capped GitHub Actions or GitLab CI/CD runner slots as Docker containers, with warm caches, optional autoscaling, and Docker-in-Docker for services and image builds.</Description>
+    <Requires>[b]Nightly software:[/b] this listing tracks mainline changes and may regress. Use only on trusted/private CI projects and keep a stable plugin package available for rollback.
+
+    CI Runner Farm can execute arbitrary pipeline code with privileged Docker-in-Docker. Public fork or merge-request code must never run on these runners. Restrict the provider to trusted repositories, groups, runner groups, and protected tags.</Requires>
+    <Support>https://github.com/unraid/ci-runner-farm/issues</Support>
+    <Project>https://github.com/unraid/ci-runner-farm</Project>
+    <Icon>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/community-applications/ci-runner-farm.png</Icon>
+    <Screenshot>https://raw.githubusercontent.com/unraid/ci-runner-farm/main/docs/images/fleet.png</Screenshot>
+    <MinVer>6.12.0</MinVer>
+</Containers>
