@@ -4,7 +4,7 @@
     <PluginURL>https://github.com/unraid/ci-runner-farm/releases/download/nightly/ci-runner-farm-nightly.plg</PluginURL>
     <PluginAuthor>Lime Technology</PluginAuthor>
     <Beta>True</Beta>
-    <Category>Tools:System: Network:Management: Productivity:</Category>
+    <Category>Tools:System Network:Management Productivity:</Category>
     <Name>CI Runner Farm - Nightly</Name>
     <Description>Early access builds of CI Runner Farm, published from the main branch after validation on the self-hosted runner farm.
 
