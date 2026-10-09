@@ -7,6 +7,7 @@
 <Category>Tools:System</Category>
 <Name>OpenRGB</Name>
 <MinVer>7.0.0</MinVer>
+<MaxVer>7.99.99</MaxVer>
 <Description>
 OpenRGB controls supported RGB lighting devices from Unraid. This plugin installs the OpenRGB command-line runtime, udev rules, and wrapper command. It does not install kernel modules or replace system libraries. 45HomeLab uses OpenRGB for optional X4 fan-lighting controls.
 </Description>
