@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/unraid/45d-drivemap/releases/latest/download/45d-drivemap.plg</PluginURL>
+<PluginURL>https://github.com/unraid/45Homelab/releases/latest/download/45d-drivemap.plg</PluginURL>
 <PluginAuthor>45Drives + Unraid</PluginAuthor>
 <Beta>False</Beta>
 <Category>Tools:System</Category>
-<Name>45D Drive Map</Name>
+<Name>45HomeLab</Name>
 <MinVer>6.12.0</MinVer>
 <Requires>45Drives X-15, HL-15 1.0/2.0, HL-8, HL-4, or Unraid 45Homelab X-4 system</Requires>
 <Description>
-Embed the 45Drives disk map UI directly in Unraid's Main page and generate map/server metadata on the Unraid host. Standard X-15, HL-15 1.0/2.0, HL-8, HL-4, and Unraid 45Homelab X-4 systems are detected automatically. HL-15 systems with non-standard motherboard/HBA wiring may require a manual HBA phy-order override; see the project README for configuration details.
+Embed the 45Drives disk map UI directly in Unraid's Main page and generate map/server metadata on the Unraid host. Standard X-15, HL-15 1.0/2.0, HL-8, HL-4, and Unraid 45Homelab X-4 systems are detected automatically. HL-15 systems with non-standard motherboard/HBA wiring may require a manual HBA phy-order override; see the project README for configuration details. Fan-lighting controls require the Unraid OpenRGB plugin, available at https://github.com/unraid/unraid-openrgb/releases/latest/download/openrgb.plg. Drive mapping works without OpenRGB.
 </Description>
-<Support>https://github.com/unraid/45d-drivemap/issues</Support>
-<Project>https://github.com/unraid/45d-drivemap#configuration-overrides</Project>
+<Support>https://github.com/unraid/45Homelab/issues</Support>
+<Project>https://github.com/unraid/45Homelab</Project>
 <IconFA>th</IconFA>
 </Containers>
